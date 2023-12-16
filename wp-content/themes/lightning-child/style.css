@@ -1,0 +1,333 @@
+/*
+Theme Name: Lightning Child
+Theme URI: 
+Template: lightning
+Description: 
+Author: 
+Tags: 
+Version: 0.6.0
+*/
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+a:hover{
+  color: #333;
+  opacity: 0.7;
+}
+h2{
+  border: none;
+}
+.more{
+  border: 2px solid #f76b28;
+  color: #fff;
+  background: #f76b28;
+  padding: 5px 8px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  line-height: 2;
+}
+.more:hover{
+  color:  #f76b28;
+  background: #fff;
+}
+.tag_link{
+  display: inline-block;
+  /* background: #fddac9; */
+  border: 1px solid #f76b28;
+  color: #f76b28;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  padding: 2px 4px;
+}
+@media (min-width: 992px){
+.device-pc .global-nav-list>li>a {
+    padding: 20px 1.5em;
+}
+}
+.site-header-logo img{
+  padding: 0.4em 0;
+}
+.single-facility .entry-header{
+  margin-bottom: 5rem;
+}
+.single-facility .appeal{
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+}
+.fac-item{
+  border: 1px solid #d9d4ce;
+  margin-bottom: 4rem;
+}
+.fac-item h2,
+.fac-item h3{
+  padding: 8px 10px;
+  border: none;
+  background: #d9d4ce;
+  font-size: 22px;
+  margin: 0;
+}
+.fac-item h3::after{
+  content: none;
+}
+.fac-item .fac-text{
+  padding: 15px;
+}
+.fac-item .fac-text .more{
+  margin-top: 2rem;
+}
+.fac-item .fac-text table{
+  margin-bottom: var(--vk-margin-element-bottom);
+}
+.fac-item.page,
+.fac-item.post{
+  display: none;
+}
+.widget ul{
+  padding: 0;
+}
+.sub-section h2{
+  position: relative;
+  text-align: center;
+}
+.sub-section h2::after{
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: #f76b28;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sub-section h2::before{
+  font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+  font-size: 75%;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+#block-7 h2::before{
+	content: "\f002";
+}
+#block-9 h2::before{
+	content: "\e561";
+}
+#block-11 h2::before{
+	content: "\f073";
+}
+.sub-section .wpp-post-title {
+  font-size: 14px;
+  text-decoration: none;
+}
+#block-8,
+#block-10{
+  border-bottom: 1px solid #d9d4ce;
+}
+#block-10{
+  padding-bottom: 1.5rem;
+}
+.facility_search{
+  border: 2px solid #d9d4ce;
+  padding: 0 15px;
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+.facility_search h2{
+  border-bottom: 2px solid #f76b28;
+  padding-bottom: 8px;
+}
+.facility_search h2::before{
+  font-family: "Font Awesome 6 Free";
+  content: "\f002";
+	font-weight: 900;
+  font-size: 75%;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+.facility_search .search_ttl{
+  background: #d9d4ce;
+  padding: 0px 5px 3px;
+  margin-bottom: 10px;
+  margin-top: 24px;
+}
+.facility_search .reset_btn{
+  font-size: 14px;
+}
+.facility_search .btn{
+  display: block;
+  margin: 2rem auto 20px;
+
+}
+.facility_search label{
+  display: inline-block;
+  margin: 0 8px 3px 0;
+}
+.home .main-section{
+  margin-bottom: 10rem;
+}
+#mv{
+  text-align: center;
+}
+.facility_search_top{
+  max-width: 640px;
+  background: rgba(255,255,255,0.7);
+  padding: 3rem 15px 4rem;
+  margin: 15vh auto;
+}
+.facility_search_top .btn{
+  margin-top: 3rem;
+}
+.home .main-section h2{
+  padding: 8px 10px;
+    border: none;
+    background: #d9d4ce;
+    font-size: 20px;
+    margin: 0;
+    border-left: 5px solid var(--vk-color-primary);
+  margin-top: 4rem;
+}
+.home .main-section ul{
+  list-style: none;
+  padding: 0;
+}
+.home .main-section ul.link-item-wrap li{
+  display: inline-block;
+    border: 1px solid #f76b28;
+    color: #f76b28;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding: 2px 4px;
+}
+.home .main-section ul.link-item-wrap li a{
+  display: block;
+  color: #f76b28;
+  text-decoration: none;
+}
+.link-area-wrap > li{
+  background: none;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.link-area-wrap > li li{
+  display: inline-block;
+    background: #fddac9;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.link-area-wrap > li li a{
+  display: block;
+  text-decoration: none;
+  color: #3e1b0a;
+  padding: 5px 10px;
+}
+ol.column-list{
+  padding: 0;
+}
+ol.column-list .wpp-list li {
+  overflow: hidden;
+  float: none;
+  clear: both;
+  margin-bottom: 1rem;
+  display: flex;
+  margin: 0 0 2rem;
+}
+ol.column-list .wpp-list li > a{
+  width: 150px;
+  margin-right: 15px;
+}
+ol.column-list .wpp-list li > div{
+  flex: 1;
+}
+ol.column-list .wpp-list li > div p{
+  margin: 0;
+}
+ol.column-list .wpp-list li > div .ttl {
+  font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ol.column-list .wpp-list li > div .ttl span{
+  display: block;
+}
+ol.column-list .wpp-list li > div .ttl span a{
+  display: block;
+  width: 115px;
+  background-color: #666;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.1em;
+  padding: 4px 8px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+ol.column-list li{
+  list-style: none;
+  display: flex;
+}
+ol.column-list li > a{
+  width: 100px;
+  margin-right: 15px;
+}
+ol.column-list li > p.ttl{
+  flex: 1;
+}
+ol.column-list li > p.ttl span{
+  display: block;
+}
+ol.column-list li > p.ttl span.cat a{
+  display: block;
+  width: 115px;
+  background-color: #666;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.1em;
+  padding: 4px 8px;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+@media (max-width:767.98px) {
+  ol.column-list .wpp-list li > a {
+    width: 100px;
+    margin-right: 8px;
+}
+ol.column-list li > a {
+  width: 100px;
+  margin-right: 8px;
+}
+}
+.wpp-shortcode.wpp-ajax{
+  margin-top: 20px;
+}
+.facility_search_top h2{
+  position: relative;
+}
+.facility_search_top h2::after{
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: #f76b28;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.facility_search_top p{
+  font-size: 1.2em;
+}
+.facility_search_top p.search_ttl{
+  font-weight: bold;
+}
