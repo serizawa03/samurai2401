@@ -15,7 +15,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /casestudy202401/index.php [L]
 </IfModule>
 # END WordPress
-AuthUserFile "/home/xs682415/dropwort.tokyo/htpasswd/casestudy202401/.htpasswd"
-AuthName "Member Site"
-AuthType BASIC
-require valid-user
